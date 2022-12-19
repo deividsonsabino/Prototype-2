@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 1025065355385797643}
   m_Layer: 0
   m_Name: Animal_Doe_02
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820016d96b28aaa4696c9f26828d6c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 1
 --- !u!114 &1601260026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,6 +941,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c569d114585d642b9f02dbc6e1e2cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  sideBound: 30
 --- !u!65 &7051334216200310549
 BoxCollider:
   m_ObjectHideFlags: 0

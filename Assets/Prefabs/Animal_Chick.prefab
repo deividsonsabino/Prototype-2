@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 7836256701905025068}
   m_Layer: 0
   m_Name: Animal_Chick
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: -30
   lowerBound: 10
+  direction: left
 --- !u!65 &3299978168201825862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -320,8 +321,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.6991608, y: 6.5209527, z: 6.6547475}
+  m_Center: {x: -0.33237338, y: 2.760476, z: -0.33170912}
 --- !u!114 &7836256701905025068
 MonoBehaviour:
   m_ObjectHideFlags: 0
