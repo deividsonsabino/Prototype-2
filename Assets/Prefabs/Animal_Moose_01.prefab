@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 1411282743382314192}
   m_Layer: 0
   m_Name: Animal_Moose_01
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -518,6 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+  direction: bottom
 --- !u!65 &7266809115661816095
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1918646307631175065}
   m_Layer: 0
   m_Name: Animal_Chicken_White
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,8 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c569d114585d642b9f02dbc6e1e2cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 9
+  topBound: -30
   lowerBound: -10
+  direction: left
 --- !u!65 &1062620152681588548
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102,8 +103,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 12.973769, y: 14.939714, z: 19.116755}
+  m_Center: {x: 1.5940362, y: 6.969855, z: 3.5183656}
 --- !u!114 &-1918646307631175065
 MonoBehaviour:
   m_ObjectHideFlags: 0
