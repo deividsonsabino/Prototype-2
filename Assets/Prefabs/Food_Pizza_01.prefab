@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
-  direction: 
+  sideBound: 25
 --- !u!65 &4692193254580394622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -128,7 +128,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
-  m_Center: {x: 0, y: 0, z: -0.0000001937151}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5133494162468289777
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -157,4 +157,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44994943788837944a89017ac01baf6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: obj
